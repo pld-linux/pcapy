@@ -10,7 +10,6 @@ Source0:	http://oss.coresecurity.com/repo/%{name}-%{version}.tar.gz
 URL:		http://oss.coresecurity.com/projects/pcapy.html
 BuildRequires:	libpcap-devel
 BuildRequires:	python-devel >= 2.2.1
-BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
