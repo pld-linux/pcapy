@@ -1,5 +1,6 @@
 %include        /usr/lib/rpm/macros.python
 Summary:	Python pcap extension
+Summary(pl):	Rozszerzenie pcap dla Pythona
 Name:		pcapy
 Version:	0.10.2
 Release:	0.1
@@ -17,6 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Pcapy is a Python extension module that enables software written in
 Python to access the routines from the pcap packet capture library.
+
+%description -l pl
+Pcapy to modu³ rozszerzenia Pythona pozwalaj±cy programom napisanym w
+Pythonie na dostêp do funkcji z biblioteki przechwytywania pakietów
+pcap.
 
 %prep
 %setup -q
@@ -37,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc LICENSE README pcapy.html
-%{py_sitedir}/pcapy.so
+%attr(755,root,root) %{py_sitedir}/pcapy.so
