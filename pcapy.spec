@@ -3,7 +3,7 @@ Summary:	Python pcap extension
 Name:		pcapy
 Version:	0.10.2
 Release:	0.1
-License:	GPL
+License:	Apache Software License 1.1
 Group:		Libraries
 Source0:	http://oss.coresecurity.com/repo/%{name}-%{version}.tar.gz
 # Source0-md5:	bfccce6785f787d7346ca0b115738906
