@@ -1,4 +1,3 @@
-%include        /usr/lib/rpm/macros.python
 Summary:	Python pcap extension
 Summary(pl):	Rozszerzenie pcap dla Pythona
 Name:		pcapy
