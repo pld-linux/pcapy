@@ -1,5 +1,5 @@
 Summary:	Python pcap extension
-Summary(pl):	Rozszerzenie pcap dla Pythona
+Summary(pl.UTF-8):   Rozszerzenie pcap dla Pythona
 Name:		pcapy
 Version:	0.10.2
 Release:	0.1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Pcapy is a Python extension module that enables software written in
 Python to access the routines from the pcap packet capture library.
 
-%description -l pl
-Pcapy to modu³ rozszerzenia Pythona pozwalaj±cy programom napisanym w
-Pythonie na dostêp do funkcji z biblioteki przechwytywania pakietów
+%description -l pl.UTF-8
+Pcapy to moduÅ‚ rozszerzenia Pythona pozwalajÄ…cy programom napisanym w
+Pythonie na dostÄ™p do funkcji z biblioteki przechwytywania pakietÃ³w
 pcap.
 
 %prep
