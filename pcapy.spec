@@ -1,5 +1,5 @@
 Summary:	Python pcap extension
-Summary(pl.UTF-8):   Rozszerzenie pcap dla Pythona
+Summary(pl.UTF-8):	Rozszerzenie pcap dla Pythona
 Name:		pcapy
 Version:	0.10.2
 Release:	0.1
