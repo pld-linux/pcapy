@@ -1,12 +1,12 @@
 Summary:	Python pcap extension
 Summary(pl.UTF-8):	Rozszerzenie pcap dla Pythona
 Name:		pcapy
-Version:	0.10.2
+Version:	0.10.5
 Release:	0.1
 License:	Apache Software License 1.1
 Group:		Libraries
 Source0:	http://oss.coresecurity.com/repo/%{name}-%{version}.tar.gz
-# Source0-md5:	bfccce6785f787d7346ca0b115738906
+# Source0-md5:	1dcff6af494f3d6763f457aa86aa0853
 URL:		http://oss.coresecurity.com/projects/pcapy.html
 BuildRequires:	libpcap-devel
 BuildRequires:	python-devel >= 2.2.1
